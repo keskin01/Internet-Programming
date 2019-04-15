@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>REGISTRATION</title>
+<link rel="shortcut icon" href="IEEE Kite.png"/>
+</head>
+
+<body>
+  <header>
+      <nav>
+          <a href="index.html">HOMEPAGE</a>
+          <a href="films.html">FILMS</a>
+          <a href="books.html">BOOKS</a>
+          <a href="musics.html">MUSICS</a>
+          <a href="usefullinks.html">USEFUL LINKS</a>
+          <a href="contactme.html">CONTACT</a>
+          <a href="registration.html"><big>REGISTRATION</big></a>
+      </nav>
+  </header>  
+  <form>
+        <fieldset>
+          <legend>Register</legend>
+  
+          <label for="theName"> Name (Middle Name) Surname: </label>
+          <input type="text" name="name"> <br>
+  
+          <label for="password"> Password: </label>
+          <input type="password" name="password"><br>
+  
+          <label for="theEmail"> Email: </label>
+          <input type="email" name="email"> <br>
+  
+          <label for="birthday">Your birthday: </label>
+          <input type="date" id="birthday" name="birthday"><br>
+  
+          <label for="department">Department: </label>
+          <select name="department">
+            <option>------</option>
+            <option>Computer Engineering</option>
+            <option>Electrical/Electronics Engineering</option>
+            <option>Material Science and Engineering</option>
+            <option>Chemical Engineering</option>
+            <option>Civil Engineering</option>
+            <option>Environment Engineering</option>
+            <option>Mechanical Engineering</option>
+            
+          </select><br>
+  
+          <label for="gender">Gender: </label>
+          <select name="gender">
+            <option>------</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select><br>
+  
+          About Me: <br>
+          <textarea rows="5" cols="55" name="feedback"></textarea><br><br>
+          <label for="pic">Upload Your Photo: </label>
+          <input type="file" name="pic" accept="image/*"><br><br>
+  
+          <label for="theCheckboxes">Mark Your Interests</label> <br>
+          <input type="checkbox">IEEE<br>
+          <input type="checkbox">Technology<br>
+          <input type="checkbox">Treval<br>
+          <input type="checkbox">Sport<br>
+          <input type="checkbox">Coding<br>
+          <input type="checkbox">Politics<br>
+          <button type="button" onclick="alert('Thank you for your Registration!')">Submit</button><br>
+          <button type="reset" value="Reset">Reset</button>
+  
+        </fieldset> <br>
+      </form>
+  
+
+</body>
+</html>
